@@ -252,6 +252,7 @@ a:hover {
 
 #footer-subscribe {
   margin-top: 1%;
+  
 }
 
 #footer-subscribe > p {
@@ -457,6 +458,9 @@ a:hover {
   }
   .recipeCard{
     margin: auto;
+  }
+  #footer-subscribe{
+    width: 80vw;
   }
 }
 

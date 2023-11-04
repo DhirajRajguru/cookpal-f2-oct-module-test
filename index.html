@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <section id="mobileDrawer">
+        <div><h id="mobDrawerClose">x</h></div>
+        <div>
+          <div class="siteLogo">
+            <img src="./assets/Cookpal 1.png" alt="site_logo" />
+          </div>
+          <div class="userProfile">
+            <img src="./assets/profile.jpg" alt="User Profile" />
+          </div>
+        </div>
+        <ul class="mobnavOptions">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </section>
+
+
+
+    <nav>
+        <div class="nav-col-1 ">
+            <div id="mobMenu" class="hide">
+                <img src="./assets/menu.svg" alt="">
+            </div>
+            <div class="logo">
+                <img src="./assets/Cookpal 1.png" alt="cookpal-logo">
+            </div>
+        </div>
+        <div class="nav-col-2">
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Explore</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="profile">
+                <img src="./assets/profile.jpg" alt="login-profile">
+            </div>
+        </div>
+    </nav>
+
+
+    <header>
+        
+        <div class="hero-text">
+            <p id="trending">Trending Now</p>
+            <h1>Mike's famous salad<br> with cheese</h1>
+            <p id="chef-name">By John Mike</p>
+        </div>
+
+        
+    </header>
+
+    <div class="search-container">
+        <div class="search-text">
+            <p>Search For Recipes</p>
+        </div>
+
+        <div class="search-bar">
+            <div class="search-col-1">
+                <img src="./assets/search 1.svg" alt="">
+                <input id="searchInput"type="text" name="" id="" placeholder="Search for recipes...">
+            </div>
+
+
+            <div class="search-img">
+                <img src="./assets/li_search.svg" alt="">
+            </div>
+        </div>
+        
+    </div>
+
+    <section class="toggleContainer">
+
+        <button id="toggleAll">
+          <span>All Recipies</span
+          ><img src="./assets/arrow_right.svg" alt="arrow" />
+        </button>
+
+        <button id="toggleVeg">
+          <span>Veg Recipes Only</span
+          ><img src="./assets/arrow_right.svg" alt="arrow" />
+        </button>
+
+        <button id="toggleNonVeg">
+          <span>Non Veg Recipies</span
+          ><img src="./assets/arrow_right.svg" alt="arrow" />
+        </button>
+
+        
+      </section>
+
+    <div class="filter-and-receipe">
+        <div class="filter">
+            <h2>Filters</h2>
+
+            <h4>Rating</h4>
+
+            <input type="checkbox" id="greterEqualToFour" />
+            <label for="greterEqualToFour">4 and above</label>
+
+            <br/>
+            <input type="checkbox" id="lessThenFour"/>
+            <label for="lessThenFour">Below 4</label>
+        </div>
+
+        <!--  Receipe cards  -->
+        <div id="recipe-container">
+
+        </div>
+    </div>
+
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div id="footer-desc">
+                <div>
+                    <img src="./assets/Cookpal 1.png" alt="">
+                </div>
+
+                <div>
+                    <p>Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join our community and let's cook together!</p>
+                </div>
+            </div>
+
+            
+                <div id="company-links">
+                    <h2>Company</h2>
+                    <a href="#">Home</a>
+                    <a href="#">Explore</a>
+                    <a href="#">Team</a>
+                    <a href="#">About us</a>
+                    <a href="#">Activity</a>
+                </div>
+
+                <div id="resources-links">
+                    <h2>Resources</h2>
+                    <a href="#">Blog</a>
+                    <a href="#">Use Cases</a>
+                    <a href="#">Testimonials</a>
+                    <a href="#">Insights</a>
+                </div>
+            
+            
+            <div id="footer-subscribe">
+                <img src="./assets/Cookpal 1.png" alt="">
+                <p>Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</p>
+                
+                <div id="email-and-subscribe-container">
+                    <div id="email-container">
+
+                        <input id="email-input" type="text" name="" id="" placeholder="  Your Mail">
+                        <img src="./assets/at.svg" alt="">
+                    </div>
+                    
+                    <button id="subscribe-btn"type="submit">Subscribe</button>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="social">
+            <div>
+                <img src="./assets/Instagram.svg" alt="">
+            </div>
+            <div>
+                <img src="./assets/Twitter.svg" alt="">
+            </div>
+            <div>
+                <img src="./assets/Linkedin.svg" alt="">
+            </div>
+            <div>
+                <img src="./assets/Facebook.svg" alt="">
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
